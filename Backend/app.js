@@ -6,7 +6,7 @@ var logger = require('morgan');
 var cors = require('cors');
 var bodyParser = require('body-parser');
 require('dotenv').config();
-const pool = require("./db");
+
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
